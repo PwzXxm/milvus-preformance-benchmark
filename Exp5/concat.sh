@@ -8,5 +8,5 @@ echo -n > $RST
 for f in ${TTI[@]}; do
     echo -e "TTI $f" >> $RST
     cat "$f.csv" >> $RST
-    echo -e "\n" >> $RST
+    echo "" >> $RST
 done
